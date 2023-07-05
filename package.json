@@ -4,7 +4,10 @@
   "description": "",
   "main": "tdd.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "cipher": "node ./Function/caesarCipher.js",
+    "cipher-test": "jest ./Test/caesarCipher.test.js"
+
   },
   "keywords": [],
   "author": "",
